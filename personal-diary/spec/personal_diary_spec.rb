@@ -1,7 +1,7 @@
 require "personal_diary"
 
 describe PersonalDiary do
-  context "Should"do
+  context "Should" do
     it "return the string" do
       diary = PersonalDiary.new
       result = diary.make_snippet("One Two Three Four Five")
