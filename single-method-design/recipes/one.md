@@ -1,5 +1,4 @@
-# PROBLEM
-## Method Design Recipe
+# PROBLEM Method Design Recipe
 
 ## 1. Describe the Problem
 
