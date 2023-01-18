@@ -8,9 +8,9 @@
 
 ## 2. Design the Method Signature
 
-'''ruby
+```ruby
 reading_time = calculate_reading_time(text)
 # * text is a string with words in it
 # * reading_time is a integer representing minutes
-'''
+```
 
