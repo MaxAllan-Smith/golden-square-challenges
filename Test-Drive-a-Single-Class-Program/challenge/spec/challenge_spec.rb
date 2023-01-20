@@ -26,4 +26,12 @@ describe GrammarStats do
       expect(result).to eq(true)
     end
   end
+
+  context "'Percentage_Good' Method Tests:" do
+    it "Should return 50 when 'Check' method is given 6 words. (Four words: FALSE Two words: TRUE" do
+      grammerStats = GrammarStats.new
+      result = grammerStats.percentage_good
+      expect(result).to eq(50)
+    end
+  end
 end
