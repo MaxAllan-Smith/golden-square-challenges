@@ -70,7 +70,6 @@ todo_list.list # => ["Clean the dishes", "Learn a song on guitar"]
 
 #5 => Fails when no task to complete exists
 todo_list = TodoList.new
-todo_list = TodoList.new
 todo_list.add("Clean the dishes")
 todo_list.add("Wash the car")
 todo_list.add("Learn a song on guitar")
