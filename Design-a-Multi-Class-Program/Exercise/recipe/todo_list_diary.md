@@ -46,6 +46,17 @@ class Diary
 
   end
 
+  def readingTime
+
+  end
+end
+```
+
+```ruby
+class DiaryEntry
+  def initialize
+  end
+
   def add
 
   end
@@ -55,10 +66,6 @@ class Diary
   end
 
   def view
-
-  end
-
-  def readingTime
 
   end
 end
