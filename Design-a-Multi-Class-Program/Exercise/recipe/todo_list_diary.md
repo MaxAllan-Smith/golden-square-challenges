@@ -25,7 +25,35 @@
 ## Design the Class System
 
 ```ruby
+class Diary
+  def initialize(diaryTitle, diaryContents, personName, mobileNumber)
 
+  end
+
+  def add(entry)
+
+  end
+
+  def delete(entry)
+
+  end
+
+  def view(entry)
+
+  end
+
+  def readingTime(wpm, minutes)
+
+  end
+end
+```
+
+```ruby
+class Todo_List
+  def initialize()
+    
+  end
+end
 ```
 
 ## Create Examples as Itegration Tests
