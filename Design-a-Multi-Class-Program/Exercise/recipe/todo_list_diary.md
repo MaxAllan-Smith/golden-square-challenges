@@ -30,28 +30,80 @@ class Diary
 
   end
 
-  def add(entry)
+  def diary_title
 
   end
 
-  def delete(entry)
+  def diary_contents
 
   end
 
-  def view(entry)
+  def person_name
 
   end
 
-  def readingTime(wpm, minutes)
+  def mobile_number
+
+  end
+
+  def add
+
+  end
+
+  def delete
+
+  end
+
+  def view
+
+  end
+
+  def readingTime
 
   end
 end
 ```
 
 ```ruby
-class Todo_List
-  def initialize()
+class Todo
+  def initialize(task)
+
+  end
+
+  def task
     
+  end
+
+  def mark_done!
+
+  end
+
+  def done?
+
+  end
+end
+```
+
+```ruby
+class TodoList
+  def initialize
+
+  end
+
+  def add(todo)
+
+  end
+
+  def incomplete
+
+  end
+
+  def complete
+
+  end
+
+  def give_up!
+
   end
 end
 ```
