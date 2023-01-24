@@ -25,8 +25,32 @@
 ## Design the Class System
 
 ```ruby
+class Program
+  def initialize
+
+  end
+
+  def view_contacts
+    
+  end
+
+  def view_diary_entry()
+
+  end
+
+  def view_todo_completed
+
+  end
+
+  def view_todo_incompleted
+
+  end
+end
+```
+
+```ruby
 class Diary
-  def initialize(diaryTitle, diaryContents, personName, mobileNumber)
+  def initialize(diaryTitle, diaryContents)
 
   end
 
@@ -38,15 +62,7 @@ class Diary
 
   end
 
-  def person_name
-
-  end
-
-  def mobile_number
-
-  end
-
-  def readingTime
+  def readingTime(wpm, minutes)
 
   end
 end
@@ -65,7 +81,43 @@ class DiaryEntry
 
   end
 
-  def view
+  def modify
+
+  end
+end
+```
+
+```ruby
+class Contacts
+  def initialize(personName, mobileNumber)
+
+  end
+
+  def person_name
+
+  end
+
+  def mobile_number
+
+  end
+end
+```
+
+```ruby
+class ContactsEntry
+  def initialize
+
+  end
+
+  def add
+
+  end
+
+  def delete
+
+  end
+
+  def modify
 
   end
 end
