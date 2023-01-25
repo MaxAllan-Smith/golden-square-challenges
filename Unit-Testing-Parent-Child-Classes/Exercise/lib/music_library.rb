@@ -2,19 +2,24 @@
 
 class MusicLibrary
   def initialize
-    # ...
+    @tracks = []
   end
 
-  def add(track) # track is an instance of Track
-    # Track gets added to the library
-    # Returns nothing
+  def add(track)
+    return @tracks << track
   end
 
   def all
-    # Returns a list of track objects
+    return @tracks
   end
   
   def search(keyword) # keyword is a string
-    # Returns a list of tracks that match the keyword
+    search = []
+    @tracks.each do |x|
+      if x.matches?(keyword)
+        search << x
+      end
+    end
+    return search
   end
 end
